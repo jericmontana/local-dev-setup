@@ -35,7 +35,13 @@ To start fresh with your own Git setup, remove the existing Git history:
     ```sh
     rm -rf .git 
     ```
-- Windows:
+
+- Windows PowerShell:
+    ```bash
+    Remove-Item -Recurse -Force .git
+    ```
+
+- Windows Command Prompt (cmd):
     ```bash
     rmdir .git /s /q
     ```
