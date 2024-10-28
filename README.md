@@ -1,11 +1,12 @@
 # Shopify Theme Development Setup
 
-This repository provides a starting template for Shopify theme development, including a pre-configured ***`src`*** folder, tools, and settings optimized for faster development.
+This repository provides a starting template for Shopify theme development, including a pre-configured `src` folder, tools, and settings optimized for faster development.
 
 ## Tools and Configuration
 
 This setup includes the following tools to enhance development:
 
+- **Git**: For version control and collaboration.
 - **PostCSS**: For CSS transformations and plugins.
 - **Webpack**: For bundling JavaScript, CSS, and other assets.
 - **Babel**: For transpiling JavaScript to ensure compatibility across browsers.
@@ -39,21 +40,24 @@ To start fresh with your own Git setup, remove the existing Git history:
     rmdir .git /s /q
     ```
 
-### 3. Initialize a New Git Repository
+## 3. Edit the README.md File
+Customize the `README.md` file to reflect your project's unique details, such as project name, description, and any additional information specific to your setup.
+
+### 4. Initialize a New Git Repository
 After removing the Git history, initialize a new repository:
 
 ```bash
 git init
 ```
 
-### 4. Use main instead of master
+### 5. Use main instead of master
 Rename the default branch to main:
 
 ```bash
 git branch -m main
 ```
 
-### 5. Add Files and Make the Initial Commit
+### 6. Add Files and Make the Initial Commit
 Stage all files and commit them:
 
 ```bash
@@ -61,7 +65,7 @@ git add .
 git commit -m "Local development setup"
 ```
 
-### 6. Link to a New Remote Repository
+### 7. Link to a New Remote Repository
 If you have a new Git repository URL, you can link it:
 
 **_Note:_** *Replace <new_repository_url> with your actual repository URL.*
