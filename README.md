@@ -1,1 +1,1 @@
-# Test Store
+# Local Development Process
